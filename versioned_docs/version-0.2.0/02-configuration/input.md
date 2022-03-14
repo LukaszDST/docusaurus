@@ -45,13 +45,13 @@ input:
 - **kind** (_Optional_, string, default: switch, allowed_values: `['switch', 'sensor']`) - Type of device to send to Home Assistant. This kind indicate actions you can use.
 - **actions** (Optional, dictionary) - dictionary of actions.
 
-## Action for kind SWITCH
+## Action for kind of SWITCH
 
 - **single** (_Optional_, list): list of actions to use if switch is single pressed.
 - **double** (_Optional_, list): list of actions to use if switch is double pressed.
 - **long** (_Optional_, list): list of actions to use if switch is long pressed.
 
-## Action for kind SENSOR
+## Action for kind of SENSOR
 
 - **pressed** (_Optional_, list): list of actions to use if sensor is pressed.
 - **released** (_Optional_, list): list of actions to use if sensor is released.
